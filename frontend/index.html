@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+
+    <title>Checkers — Real-time Multiplayer Board Game on Starknet</title>
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Play checkers online against friends or random opponents in real-time. ELO-rated multiplayer with live spectating, leaderboards, and on-chain game records powered by Starknet and Dojo Engine." />
+    <meta name="keywords" content="checkers, draughts, online checkers, multiplayer board game, starknet game, blockchain game, dojo engine, play checkers online, ELO rating, web3 game" />
+    <meta name="author" content="Dojo Checkers" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Checkers — Real-time Multiplayer on Starknet" />
+    <meta property="og:description" content="Challenge opponents in ranked checkers matches. ELO-rated multiplayer, live spectating, and every game recorded on-chain." />
+    <meta property="og:image" content="/icon-512.svg" />
+    <meta property="og:site_name" content="Checkers" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Checkers — Real-time Multiplayer on Starknet" />
+    <meta name="twitter:description" content="Challenge opponents in ranked checkers matches. ELO-rated multiplayer, live spectating, and every game recorded on-chain." />
+    <meta name="twitter:image" content="/icon-512.svg" />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#0a0a1a" />
+    <meta name="color-scheme" content="dark" />
+
+    <!-- iOS PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Checkers" />
+    <link rel="apple-touch-icon" href="/icon-192.svg" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="/icon-192.svg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@600;700&display=swap" rel="stylesheet" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Checkers",
+      "description": "Real-time multiplayer checkers with ELO ranking, live spectating, and on-chain game records on Starknet.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Any",
+      "browserRequirements": "Requires a modern browser with JavaScript enabled",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "gameItem": {
+        "@type": "Thing",
+        "name": "Checkers Board Game"
+      },
+      "genre": ["Board Game", "Strategy", "Multiplayer"],
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": "https://schema.org/PlayAction"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
