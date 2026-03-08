@@ -219,3 +219,4 @@ Update `frontend/src/dojo/manifest.json` with the new contract addresses from mi
 - Multi-jump chains execute in sequence
 - Promotion happens when a man reaches the opponent's back row
 - 40 moves without a capture ends the game in a draw
+# checkers
