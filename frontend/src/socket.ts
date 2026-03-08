@@ -1,10 +1,10 @@
 import { io, Socket } from "socket.io-client";
 
 let socket: Socket | null = null;
-
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 export function getSocket(): Socket {
   if (!socket) {
-    socket = io(window.location.origin, {
+    socket = io(BACKEND_URL, {
       transports: ["websocket", "polling"],
       autoConnect: true,
     });
